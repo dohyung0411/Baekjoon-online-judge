@@ -55,6 +55,47 @@ int main(void)
 
     return 0;
 
+}
+*/
+
+
+/*#include<stdio.h>
+
+/// <summary>
+/// Name : 알람시계
+/// Language : C
+/// No : 2884
+/// </summary>
+/// <param name=""></param>
+/// <returns></returns>
+int main(void)
+{
+    int H;
+    int M;
+
+    scanf_s("%d %d", &H, &M);
+
+    if (H < 24, M >= 45)
+    {
+        M = M - 45;
+        printf("%d %d", H, M);
+    }
+
+    else
+    {
+        M = M + 60;
+        if (H == 0)
+        {
+            H = 23;
+            printf("%d %d", H, M - 45);
+        }
+
+        else
+        {
+            H--;
+            printf("%d %d", H, M - 45);
+        }
+    }
 
 }
 */
